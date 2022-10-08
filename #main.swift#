@@ -6,10 +6,11 @@
 // Add your code below:
 //var pass = 1
 //var swaptot = 0
-var wordy : [String] = []
-while let input = readLine() {
-    wordy.append(input)
+var words : [String] = []
+func tLine() -> Array<String> {
+    words.append(input)
 }
+var wordy = printLine()
 //print("Pass: 0, Swaps: 0/0, Array: \(wordy)")
 
 for index in 1..<wordy.count {
